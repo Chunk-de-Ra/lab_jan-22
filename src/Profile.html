@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <link rel=stylesheet href="layout.css">
+    <title>Profile of {{name}}</title>
+</head>
+<body>
+    <div class="header">
+        <script>
+            const image_src = `/static/pfp_${{name}}.jpg`;
+            const image_set = document.querySelection("img");
+            image_set.setAttribute("src",image_src);
+        </script>
+        <img id="pfp" src="/static/pfp_alice.jpg" alt="Avatar" style="width:50px">
+        <h2 class="name">{{name}}</h2>
+    </div>
+    <div class="info">
+        <p class="bday">Birthday: {{bday}}</p>
+        <p class="email">Email: {{email}}</p>
+    </div>
+</body>
+</html>

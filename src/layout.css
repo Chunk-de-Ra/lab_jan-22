@@ -1,0 +1,32 @@
+html {
+    background-color: #ffbbff
+}
+
+img {
+    border-radius: 50%;
+    width: 50px;
+    height: auto;
+}
+
+.main_container {
+    width: 860px;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #000000;
+    min-height: 500px;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: bold;
+    color: grey;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.info {
+    font-size: 15px;
+    color: gray;
+}
